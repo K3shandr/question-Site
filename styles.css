@@ -1,0 +1,85 @@
+
+body {
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.button1 {
+    background-color:rgb(250, 146, 163);
+    border:0;
+    color:white;
+    border-radius: 10%;
+    position: absolute;
+    top:195px;
+    right:33px;
+    width:120px;
+    height: 75px;
+    font-size: 32px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+.button1:active{
+    border: 1px solid;
+}
+
+.button1:hover{
+    background-color:rgb(194, 112, 125);
+}
+
+.buttonYes {
+    background-color:rgb(250, 146, 163);
+    border:0;
+    color:white;
+    border-radius: 10%;
+    position: absolute;
+    top:195px;
+    left:33px;
+    width:120px;
+    height: 75px;
+    font-size: 32px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+.buttonYes:active{
+    border: 1px solid;
+}
+
+.buttonYes:hover{
+    background-color:rgb(194, 112, 125);
+}
+
+.maindiv{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    width: 350px;
+    height: 350px;  
+    position: absolute;
+    top:37%;
+    left:33%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.question {
+    position: absolute;
+    font-size: 40px;
+    color:white;
+    top:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pclass {
+    position: absolute;
+    font-size: 40px;
+    color:white;
+    top:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
